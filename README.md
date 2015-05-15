@@ -50,7 +50,9 @@ Best place to get these is from their respective websites...
 + Travis-CI: https://github.com/docdis/learn-travis
 + CodeClimate: https://github.com/docdis/learn-codeclimate
 + Dependencies: https://david-dm.org/
-+ Node.js:
++ NPM Module Version: http://badge.fury.io/for/js/listdirs
+
+## Node.js Version your Module Supports:
 
 ```md
 [![Node version](https://img.shields.io/node/v/[NPM-MODULE-NAME].svg?style=flat)](http://nodejs.org/download/)
