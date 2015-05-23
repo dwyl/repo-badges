@@ -20,6 +20,8 @@ We use [***Travic-CI***](https://github.com/docdis/learn-travis) for our CI.  We
 
 + **CodeClimate** - [![Code Climate](https://codeclimate.com/github/dwyl/esta/badges/gpa.svg)](https://codeclimate.com/github/dwyl/esta) - is the code quality score for the project measured on a number of factors including **Complexity/Simplicity, Readability, Maintainability, Repetition and Line-count-per-file** . The ***max***imum ***score*** is **4.0** and we *obviously* strive to achieve this level in all our work.   [https://github.com/docdis/**learn-codeclimate**](https://github.com/docdis/learn-codeclimate)
 
++ **BitHound** - [![bitHound Score](https://img.shields.io/badge/bitHound-100-brightgreen.svg)](https://www.bithound.io/github/dwyl/ordem) - similar to *CodeClimate* but has *way* more detail! and charts progress/regression on a graph which is great for monitoring code quality in teams! see: https://www.bithound.io/features
+
 + **Dependencies** - [![Dependency Status](https://david-dm.org/dwyl/esta.svg)](https://david-dm.org/dwyl/esta) - knowing your module/project has (and works with) the latest versions of all its dependencies is a good way to signal that any bug-fixes/performance improvements/security patches etc in the *component* modules/libraries are considered in by the authors.
 We use https://david-dm.org/ to track our dependencies. david-dm is lovingly maintained by [**@alanshaw**](https://github.com/alanshaw) of [**TableFlip**](http://tableflip.io/) (a fellow ***dwyl***er!) and is a *great* resource for the node.js community!
 
@@ -84,7 +86,7 @@ If you need to adapt any of the images or *create your own*: http://shields.io
 
 ## *Extra* High-resolution
 
-We needed ***High-resolution versions*** of the coding badges for a presentation about testing so we made **PNG**s out of SVGs...
+We needed ***High-resolution versions*** of the coding badges for a presentation about testing so we made **PNG**s from the SVGs ...
 
 These are in the folders in this repo in case they are useful to someone else.
 
