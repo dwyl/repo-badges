@@ -38,7 +38,16 @@ We use https://david-dm.org/ to track our dependencies. david-dm is lovingly mai
 [![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
 ```
 
-You'll need to setup your project on [**Travis-CI**]() and write **unit tests** (*preferably TDD!*) for this to work ... if you're stuck ask us how!
+You'll need to setup your project on [**Travis-CI**](https://github.com/docdis/learn-travis) and write **unit tests** (*preferably TDD!*) for this to work ... if you're stuck ask us how!
+
+
+### CodeCliamte
+
+Setup your repository by adding it on code climate then copy the badge markdown from them!
+
+For more detailed instructions see: https://github.com/docdis/learn-codeclimate
+
+
 
 ### Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 
