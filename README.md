@@ -13,7 +13,7 @@ Please :star: this repo and share it with others.
 
 We use the following badges (*listed in order of importance*):
 
-+ **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.png?branch=master)](https://travis-ci.org/dwyl/esta) - "*build passing*" indicates that the project's **tests** all **pass** as expected. If you see that the build for a project is "*broken*" it means the software does *not* work as advertised! This is a clear sign that you should not be using it (*until it gets fixed!*) ... check the repo's issues to see if it's a known problem, if not, *report it*!  
++ **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta) - "*build passing*" indicates that the project's **tests** all **pass** as expected. If you see that the build for a project is "*broken*" it means the software does *not* work as advertised! This is a clear sign that you should not be using it (*until it gets fixed!*) ... check the repo's issues to see if it's a known problem, if not, *report it*!  
 We use [***Travic-CI***](https://github.com/docdis/learn-travis) for our CI.  We wrote a little how-to/tutorial to help you (and your team) get started: [https://github.com/docdis/**learn-travis**](https://github.com/docdis/learn-travis)
 
 + **Test/Code Coverage** - [![Test Coverage](https://codeclimate.com/github/dwyl/esta/badges/coverage.svg)](https://codeclimate.com/github/dwyl/esta) - coverage is the measure of how much of the code in a project is tested. Anything ***below 100% coverage*** means the module/library has ***potential bugs*** which are unknown to the authors/users. We avoid using modules with less than 100% coverage and encourage others to *question* why the authors did not put in the time to test their code... ***ALL our code is tested***. *we cannot guarantee every line is "bug-free", (and always welcome people reporting any issues!) however we are meticulous about testing our work and always add regression/edge test cases where bugs are discovered!*
@@ -32,7 +32,7 @@ We use https://david-dm.org/ to track our dependencies. david-dm is lovingly mai
 
 ## How?
 
-### Build Passing [![Build Status](https://travis-ci.org/dwyl/esta.png?branch=master)](https://travis-ci.org/)
+### Build Passing [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/)
 
 ```md
 [![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
