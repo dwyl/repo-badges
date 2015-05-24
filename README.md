@@ -46,6 +46,13 @@ You'll need to setup your project on [**Travis-CI**]() and write **unit tests** 
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 ```
 
+### Node.js Version your Project/Module Supports:
+
+```md
+[![Node version](https://img.shields.io/node/v/[NPM-MODULE-NAME].svg?style=flat)](http://nodejs.org/download/)
+```
+
+
 ### Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
 ```code
@@ -61,23 +68,6 @@ You'll need to setup your project on [**Travis-CI**]() and write **unit tests** 
 ```
 
 
-### The Rest ...
-
-Best place to get these is from their respective websites...
-
-
-[![Test Coverage](https://codeclimate.com/github/dwyl/esta/badges/coverage.svg)](https://codeclimate.com/github/dwyl/esta)
-[![Code Climate](https://codeclimate.com/github/dwyl/esta/badges/gpa.svg)](https://codeclimate.com/github/dwyl/esta)
-[![Dependency Status](https://david-dm.org/dwyl/esta.svg)](https://david-dm.org/dwyl/esta)
-[![Node version](https://img.shields.io/node/v/esta.svg?style=flat)](http://nodejs.org/download/)
-[![NPM Version](https://badge.fury.io/js/esta.svg?style=flat)](https://npmjs.org/package/esta)
-
-
-### Node.js Version your Module Supports:
-
-```md
-[![Node version](https://img.shields.io/node/v/[NPM-MODULE-NAME].svg?style=flat)](http://nodejs.org/download/)
-```
 
 ### Others
 
