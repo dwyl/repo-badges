@@ -7,7 +7,10 @@ As people who are ***passionate*** about writing ***great code*** we **display**
 developers* that we set ourselves ***high standards***<sup>1</sup> for the code we write, think of them as the software-equivalent of the brand on your jeans or other ***reliable product***.
 
 Help spread the **Code Quality** ***Love***! :heart:  
-Please :star: this repo and share it with others.
+Please :star: this repo and share it with others by ***re-tweeting***:
+
+[![repo-bages-please-retweet](http://i.imgur.com/OuqTKlV.png)](https://twitter.com/nelsonic/status/602379561507135488)
+
 
 ## What?
 
