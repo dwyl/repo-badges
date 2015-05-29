@@ -44,7 +44,7 @@ We use https://david-dm.org/ to track our dependencies. david-dm is lovingly mai
 You'll need to setup your project on [**Travis-CI**](https://github.com/docdis/learn-travis) and write **unit tests** (*preferably TDD!*) for this to work ... if you're stuck ask us how!
 
 
-### CodeCliamte
+### CodeClimate
 
 Setup your repository by adding it on code climate then copy the badge markdown from them!
 
@@ -58,7 +58,7 @@ For more detailed instructions see: https://github.com/docdis/learn-codeclimate
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 ```
 
-### Node.js Version your Project/Module Supports:
+### Node.js Version your Project/Module Supports: [![NPM version](https://badge.fury.io/js/angular-validation.svg)](http://badge.fury.io/js/angular-validation)
 
 ```md
 [![Node version](https://img.shields.io/node/v/[NPM-MODULE-NAME].svg?style=flat)](http://nodejs.org/download/)
