@@ -88,7 +88,7 @@ we're *excited* that there is more *choie* in the JS testing space!
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 ```
 
-### Node.js Version your Project/Module Supports: [![NPM version](https://badge.fury.io/js/angular-validation.svg)](http://badge.fury.io/js/angular-validation)
+### Node.js Version your Project/Module Supports: [![NPM version](https://badge.fury.io/js/esta.svg)](http://badge.fury.io/js/esta)
 
 ```md
 [![Node version](https://img.shields.io/node/v/[NPM-MODULE-NAME].svg?style=flat)](http://nodejs.org/download/)
@@ -109,7 +109,18 @@ we're *excited* that there is more *choie* in the JS testing space!
 [![Join the chat at https://gitter.im/{ORG-or-USERNAME}/{REPO-NAME}](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```
 
+### Hit Counter [![HitCount](https://hitt.herokuapp.com/dwyl/repo-badges.svg)](https://github.com/dwyl/repo-badges)
 
+Ever wanted to know how many people have viewed your GitHub Repo?  
+We did ...
+So we wrote a tiny script that counts views! :open_mouth:
+
+```md
+[![HitCount](https://hitt.herokuapp.com/{username||org}/{project-name}.svg)](https://github.com/{username||org}/{project-name})
+```
+
+> *Yes, we* ***know*** *that* "*hits*" = "***How Idiots Track Success***" ... *but, in the absence of better analytics,
+its a fun metric to track* :wink:
 
 ### Others
 
