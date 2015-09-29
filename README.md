@@ -17,11 +17,11 @@ Please :star: this repo and share it with others by ***re-tweeting***:
 We use the following badges (*listed in order of importance*):
 
 + **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta) - "*build passing*" indicates that the project's **tests** all **pass** as expected. If you see that the build for a project is "*broken*" it means the software does *not* work as advertised! This is a clear sign that you should not be using it (*until it gets fixed!*) ... check the repo's issues to see if it's a known problem, if not, *report it*!  
-We use [***Travic-CI***](https://github.com/docdis/learn-travis) for our CI.  We wrote a little how-to/tutorial to help you (and your team) get started: [https://github.com/docdis/**learn-travis**](https://github.com/docdis/learn-travis)
+We use [***Travic-CI***](https://github.com/dwyl/learn-travis) for our CI.  We wrote a little how-to/tutorial to help you (and your team) get started: [https://github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
 
-+ **Test/Code Coverage** - [![Test Coverage](https://codeclimate.com/github/dwyl/esta/badges/coverage.svg)](https://codeclimate.com/github/dwyl/esta) - coverage is the measure of how much of the code in a project is tested. Anything ***below 100% coverage*** means the module/library has ***potential bugs*** which are unknown to the authors/users. We avoid using modules with less than 100% coverage and encourage others to *question* why the authors did not put in the time to test their code... ***ALL our code is tested***. *we cannot guarantee every line is "bug-free", (and always welcome people reporting any issues!) however we are meticulous about testing our work and always add regression/edge test cases where bugs are discovered!*
++ **Test/Code Coverage** - [![codecov.io](http://codecov.io/github/nelsonic/hits/coverage.svg?branch=master)](http://codecov.io/github/nelsonic/hits?branch=master) - coverage is the measure of how much of the code in a project is tested. Anything ***below 100% coverage*** means the module/library has ***potential bugs*** which are unknown to the authors/users. We avoid using modules with less than 100% coverage and encourage others to *question* why the authors did not put in the time to test their code... ***ALL our code is tested***. *we cannot guarantee every line is "bug-free", (and always welcome people reporting any issues!) however we are meticulous about testing our work and always add regression/edge test cases where bugs are discovered!*
 
-+ **CodeClimate** - [![Code Climate](https://codeclimate.com/github/dwyl/esta/badges/gpa.svg)](https://codeclimate.com/github/dwyl/esta) - is the code quality score for the project measured on a number of factors including **Complexity/Simplicity, Readability, Maintainability, Repetition and Line-count-per-file** . The ***max***imum ***score*** is **4.0** and we *obviously* strive to achieve this level in all our work.   [https://github.com/docdis/**learn-codeclimate**](https://github.com/docdis/learn-codeclimate)
++ **CodeClimate** - [![Code Climate](https://codeclimate.com/github/dwyl/esta/badges/gpa.svg)](https://codeclimate.com/github/dwyl/esta) - is the code quality score for the project measured on a number of factors including **Complexity/Simplicity, Readability, Maintainability, Repetition and Line-count-per-file** . The ***max***imum ***score*** is **4.0** and we *obviously* strive to achieve this level in all our work.   [https://github.com/dwyl/**learn-codeclimate**](https://github.com/dwyl/learn-codeclimate)
 
 + **BitHound** - [![bitHound Score](https://img.shields.io/badge/bitHound-100-brightgreen.svg)](https://www.bithound.io/github/dwyl/ordem) - similar to *CodeClimate* but has *way* more detail! and charts progress/regression on a graph which is great for monitoring code quality in teams! see: https://www.bithound.io/features
 
@@ -41,16 +41,46 @@ We use https://david-dm.org/ to track our dependencies. david-dm is lovingly mai
 [![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
 ```
 
-You'll need to setup your project on [**Travis-CI**](https://github.com/docdis/learn-travis) and write **unit tests** (*preferably TDD!*) for this to work ... if you're stuck ask us how!
+You'll need to setup your project on [**Travis-CI**](https://github.com/dwyl/learn-travis) and write **unit tests** (*preferably TDD!*) for this to work ... if you're stuck ask us how!
 
 
 ### CodeClimate
 
 Setup your repository by adding it on code climate then copy the badge markdown from them!
 
-For more detailed instructions see: https://github.com/docdis/learn-codeclimate
+For more detailed instructions see: https://github.com/dwyl/learn-codeclimate
 
+### Coverage
 
+The new kid on the block for Test Coverage is: https://codecov.io/#features  
+We *love* their features *especially the fact that they check*
+***coverage for pull requests***!  
+To setup **codecov** simply add the following lines to your
+`.travis.yml` file:
+
+```sh
+before_install:
+  - pip install --user codecov
+after_success:
+  - codecov --file coverage/lcov.info --disable search
+```
+
+And remember to output a [coverage report](https://github.com/nelsonic/hits/blob/7867e0d1abe9d3a5246e39ad53abdbde35ded01a/package.json#L11) in your tests using istanbul,
+by adding it to your `test` script in your [package.json](https://github.com/nelsonic/hits/blob/7867e0d1abe9d3a5246e39ad53abdbde35ded01a/package.json#L11)
+so that travis can send the coverage report to codecov
+e.g:
+```sh
+"scripts": {
+  "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js"
+}
+```
+If you are new to istanbul check out: [**learn-istanbul**](https://github.com/dwyl/learn-istanbul)
+
+Working example:
+[hits/**.travis.yml**](https://github.com/nelsonic/hits/blob/master/.travis.yml)
+
+> Note: you can still use CodeClimate for Coverage if you prefer,  
+we're *excited* that there is more *choie* in the JS testing space!
 
 ### Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 
@@ -58,7 +88,7 @@ For more detailed instructions see: https://github.com/docdis/learn-codeclimate
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 ```
 
-### Node.js Version your Project/Module Supports: [![NPM version](https://badge.fury.io/js/angular-validation.svg)](http://badge.fury.io/js/angular-validation)
+### Node.js Version your Project/Module Supports: [![NPM version](https://badge.fury.io/js/esta.svg)](http://badge.fury.io/js/esta)
 
 ```md
 [![Node version](https://img.shields.io/node/v/[NPM-MODULE-NAME].svg?style=flat)](http://nodejs.org/download/)
@@ -74,12 +104,23 @@ For more detailed instructions see: https://github.com/docdis/learn-codeclimate
 
 ### Gitter (*Chat for Developers*!)
 
-[![Join the chat at https://gitter.im/docdis/javascript-best-practice](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/docdis/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```md
-[![Join the chat at https://gitter.im/{ORG-or-USERNAME}/{REPO-NAME}](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/docdis/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/{ORG-or-USERNAME}/{REPO-NAME}](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```
 
+### Hit Counter [![HitCount](https://hitt.herokuapp.com/dwyl/repo-badges.svg)](https://github.com/dwyl/repo-badges)
 
+Ever wanted to know how many people have viewed your GitHub Repo?  
+We did ...
+So we wrote a tiny script that counts views! :open_mouth:
+
+```md
+[![HitCount](https://hitt.herokuapp.com/{username||org}/{project-name}.svg)](https://github.com/{username||org}/{project-name})
+```
+
+> *Yes, we* ***know*** *that* "*hits*" = "***How Idiots Track Success***" ... *but, in the absence of better analytics,
+its a fun metric to track* :wink:
 
 ### Others
 
