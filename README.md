@@ -6,7 +6,7 @@ Code Repository Badges ![build passing](https://raw.githubusercontent.com/dwyl/r
 As people who are ***passionate*** about writing ***great code*** we **display** "***badges***" in our code repositories to ***signal*** to *fellow
 developers* that we set ourselves ***high standards***<sup>1</sup> for the code we write, think of them as the software-equivalent of the brand on your jeans or other ***reliable product***.
 
-Help spread the **Code Quality** ***Love***! :heart:
+Help spread the **Code Quality** ***Love***! :heart:<br />
 Please :star: this repo and share it with others by ***re-tweeting***:
 
 [![repo-bages-please-retweet](http://i.imgur.com/OuqTKlV.png)](https://twitter.com/nelsonic/status/602379561507135488)
@@ -16,7 +16,7 @@ Please :star: this repo and share it with others by ***re-tweeting***:
 
 We use the following badges (*listed in order of importance*):
 
-+ **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta) - "*build passing*" indicates that the project's **tests** all **pass** as expected. If you see that the build for a project is "*broken*" it means the software does *not* work as advertised! This is a clear sign that you should not be using it (*until it gets fixed!*) ... check the repo's issues to see if it's a known problem, if not, *report it*!
++ **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta) - "*build passing*" indicates that the project's **tests** all **pass** as expected. If you see that the build for a project is "*broken*" it means the software does *not* work as advertised! This is a clear sign that you should not be using it (*until it gets fixed!*) ... check the repo's issues to see if it's a known problem, if not, *report it*!<br />
 We use [***Travis-CI***](https://github.com/dwyl/learn-travis) for our CI.  We wrote a little how-to/tutorial to help you (and your team) get started: [https://github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
 
 + **Test/Code Coverage** - [![codecov.io](http://codecov.io/github/nelsonic/hits/coverage.svg?branch=master)](http://codecov.io/github/nelsonic/hits?branch=master) - coverage is the measure of how much of the code in a project is tested. Anything ***below 100% coverage*** means the module/library has ***potential bugs*** which are unknown to the authors/users. We avoid using modules with less than 100% coverage and encourage others to *question* why the authors did not put in the time to test their code... ***ALL our code is tested***. *we cannot guarantee every line is "bug-free", (and always welcome people reporting any issues!) however we are meticulous about testing our work and always add regression/edge test cases where bugs are discovered!*
@@ -52,9 +52,9 @@ For more detailed instructions see: https://github.com/dwyl/learn-codeclimate
 
 ### Coverage
 
-The new kid on the block for Test Coverage is: https://codecov.io/#features
+The new kid on the block for Test Coverage is: https://codecov.io/#features<br />
 We *love* their features *especially the fact that they check*
-***coverage for pull requests***!
+***coverage for pull requests***!<br />
 To setup **codecov** simply add the following lines to your
 `.travis.yml` file:
 
@@ -79,7 +79,7 @@ If you are new to istanbul check out: [**learn-istanbul**](https://github.com/dw
 Working example:
 [hits/**.travis.yml**](https://github.com/nelsonic/hits/blob/master/.travis.yml)
 
-> Note: you can still use CodeClimate for Coverage if you prefer,
+> Note: you can still use CodeClimate for Coverage if you prefer,<br />
 we're *excited* that there is more *choie* in the JS testing space!
 
 ### Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
@@ -116,7 +116,7 @@ we're *excited* that there is more *choie* in the JS testing space!
 
 ### Hit Counter [![HitCount](https://hitt.herokuapp.com/dwyl/repo-badges.svg)](https://github.com/dwyl/repo-badges)
 
-Ever wanted to know how many people have viewed your GitHub Repo?
+Ever wanted to know how many people have viewed your GitHub Repo?<br />
 We did ...
 So we wrote a tiny script that counts views! :open_mouth:
 
