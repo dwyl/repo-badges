@@ -16,10 +16,17 @@ Please :star: this repo and share it with others by ***re-tweeting***:
 
 We use the following badges (*listed in order of importance*):
 
-+ **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta) - "*build passing*" indicates that the project's **tests** all **pass** as expected. If you see that the build for a project is "*broken*" it means the software does *not* work as advertised! This is a clear sign that you should not be using it (*until it gets fixed!*) ... check the repo's issues to see if it's a known problem, if not, *report it*!<br />
-We use [***Travis-CI***](https://github.com/dwyl/learn-travis) for our CI.  We wrote a little how-to/tutorial to help you (and your team) get started: [https://github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
++ ***Security*** - [![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20) -
+NodeSecurity "Live" Checking for your project: https://nodesecurity.io/services
+is a ***free*** service provided by the lovely people at [`Node Security Project`](https://nodesecurity.io)
+that checks if any of your `dependencies` have a security vulnerability.
+This _badge_ is a great way to ***reassure
+people using your app/site that security is being checked***.
 
-+ **Test/Code Coverage** - [![codecov.io](http://codecov.io/github/nelsonic/hits/coverage.svg?branch=master)](http://codecov.io/github/nelsonic/hits?branch=master) - coverage is the measure of how much of the code in a project is tested. Anything ***below 100% coverage*** means the module/library has ***potential bugs*** which are unknown to the authors/users. We avoid using modules with less than 100% coverage and encourage others to *question* why the authors did not put in the time to test their code... ***ALL our code is tested***. *we cannot guarantee every line is "bug-free", (and always welcome people reporting any issues!) however we are meticulous about testing our work and always add regression/edge test cases where bugs are discovered!*
++ **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta) - "*build passing*" indicates that the project's **tests** all **pass** as expected. If you see that the build for a project is "*broken*" it means the software does *not* work as advertised! This is a clear sign that you should not be using it (*until it gets fixed!*) ... check the repo's issues to see if it's a known problem, if not, *report it*!  
+We use [***Travic-CI***](https://github.com/dwyl/learn-travis) for our CI.  We wrote a little how-to/tutorial to help you (and your team) get started: [https://github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
+
++ **Test/Code Coverage** - [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://codecov.io/github/dwyl/hapi-auth-jwt2?branch=master) - coverage is the measure of how much of the code in a project is tested. Anything ***below 100% coverage*** means the module/library has ***potential bugs*** which are unknown to the authors/users. We avoid using modules with less than 100% coverage and encourage others to *question* why the authors did not put in the time to test their code... ***ALL our code is tested***. *we cannot guarantee every line is "bug-free", (and always welcome people reporting any issues!) however we are meticulous about testing our work and always add regression/edge test cases where bugs are discovered!*
 
 + **CodeClimate** - [![Code Climate](https://codeclimate.com/github/dwyl/esta/badges/gpa.svg)](https://codeclimate.com/github/dwyl/esta) - is the code quality score for the project measured on a number of factors including **Complexity/Simplicity, Readability, Maintainability, Repetition and Line-count-per-file** . The ***max***imum ***score*** is **4.0** and we *obviously* strive to achieve this level in all our work.   [https://github.com/dwyl/**learn-codeclimate**](https://github.com/dwyl/learn-codeclimate)
 
@@ -28,10 +35,11 @@ We use [***Travis-CI***](https://github.com/dwyl/learn-travis) for our CI.  We w
 + **Dependencies** - [![Dependency Status](https://david-dm.org/dwyl/esta.svg)](https://david-dm.org/dwyl/esta) - knowing your module/project has (and works with) the latest versions of all its dependencies is a good way to signal that any bug-fixes/performance improvements/security patches etc in the *component* modules/libraries are considered in by the authors.
 We use https://david-dm.org/ to track our dependencies. david-dm is lovingly maintained by [**@alanshaw**](https://github.com/alanshaw) of [**TableFlip**](http://tableflip.io/) (a fellow ***dwyl***er!) and is a *great* resource for the node.js community!
 
-+ **devDependencies** - [![devDependency Status](https://david-dm.org/dwyl/esta/dev-status.svg)](https://david-dm.org/dwyl/esta#info=devDependencies) - your devDependencies are the modules used in testing/building your project. These do not *need* to be the *latest* versions because you will typically not install your devDependencies on your production server (so there aren't security vulnerabilities in *production* of having out-of-date devDependencies...) however, ***we encourage*** use of ***latest*** devDependencies because it means better stability in the build (fewer bugs in our tools!) and it makes it *easier* for ***new people joining the project*** because when they `npm install` they know everything is the *latest* version.
++ **devDependencies** - [![devDependencies Status](https://david-dm.org/dwyl/hapi-auth-jwt2/dev-status.svg)](https://david-dm.org/dwyl/hapi-auth-jwt2?type=dev) - your devDependencies are the modules used in testing/building your project. These do not *need* to be the *latest* versions because you will typically not install your devDependencies on your production server (so there aren't security vulnerabilities in *production* of having out-of-date devDependencies...) however, ***we encourage*** use of ***latest*** devDependencies because it means better stability in the build (fewer bugs in our tools!) and it makes it *easier* for ***new people joining the project*** because when they `npm install` they know everything is the *latest* version.
 
-+ **NPM Module Version** - [![NPM Version](https://badge.fury.io/js/esta.svg?style=flat)](https://npmjs.org/package/esta) this is a simple *convenience* to signal to fellow developers which version is the latest for your module. (*save them having to look at the package.json*) if you want to include one in your readme, go to: http://badge.fury.io/for/js and type in your npm package name.
++ **NPM Module _Version_** - [![NPM Version](https://badge.fury.io/js/esta.svg?style=flat)](https://npmjs.org/package/esta) this is a simple *convenience* to signal to fellow developers which version is the latest for your module. (*save them having to look at the package.json*) if you want to include one in your readme, go to: http://badge.fury.io/for/js and type in your npm package name.
 
++ **NPM Module _Download Stats_** - [![NPM Download Stats](https://nodei.co/npm/decache.png?downloads=true)](https://www.npmjs.com/package/decache) - while this can be seen as a "_vanity metric_" it _can_ also be _useful_ to know if your project is actually being _used_ by people in the community to know if you need keep supporting it.
 
 ## How?
 
@@ -52,9 +60,11 @@ For more detailed instructions see: https://github.com/dwyl/learn-codeclimate
 
 ### Coverage
 
-The new kid on the block for Test Coverage is: https://codecov.io/#features<br />
+
+The new kid on the block for Test Coverage is "CodeCov": https://codecov.io/#features  
 We *love* their features *especially the fact that they check*
-***coverage for pull requests***!<br />
+***coverage for pull requests***! see: https://github.com/dwyl/learn-istanbul#tracking-coverage-as-a-service  
+
 To setup **codecov** simply add the following lines to your
 `.travis.yml` file:
 
@@ -74,7 +84,8 @@ e.g:
   "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js"
 }
 ```
-If you are new to istanbul check out: [**learn-istanbul**](https://github.com/dwyl/learn-istanbul)
+If you are new to test coverage using istanbul check out:
+[**learn-istanbul**](https://github.com/dwyl/learn-istanbul)
 
 Working example:
 [hits/**.travis.yml**](https://github.com/nelsonic/hits/blob/master/.travis.yml)
@@ -94,8 +105,22 @@ we're *excited* that there is more *choie* in the JS testing space!
 [![Node version](https://img.shields.io/node/v/[NPM-MODULE-NAME].svg?style=flat)](http://nodejs.org/download/)
 ```
 
+### NPM Download Statistics
+
+To show download stats for your NPM package, use https://nodei.co/ e.g:
+
+[![NPM Download Stats](https://nodei.co/npm/hapi-auth-jwt2.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hapi-auth-jwt2)
+
+If you want the image to be _clickable_ use the following Markdown:
+
+```markdown
+[![https://nodei.co/npm/YOUR-MODULE-NAME.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/YOUR-MODULE-NAME.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/YOUR-MODULE-NAME)
+```
+
 
 ### Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+
+If you want to _encourage_ people to contribute to your project, by reminding them that you _welcome_ their input use this badge!
 
 ```code
 ## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
@@ -108,13 +133,18 @@ we're *excited* that there is more *choie* in the JS testing space!
 ```md
 [![Join the chat at https://gitter.im/{ORG-or-USERNAME}/{REPO-NAME}](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```
-#### dwyl/chat button:
+#### _dwyl_ chat button:
+
+If you are working on a project in the `dwyl` organisation and want
+to include the button to let people join our _public_ chat channel,
+copy paste this markdown _snippet_ into the `README.md`
+of the project you are working on:
 
 ```md
 [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```
 
-### Hit Counter [![HitCount](https://hitt.herokuapp.com/dwyl/repo-badges.svg)](https://github.com/dwyl/repo-badges)
+### (GitHub Repo) Hit Counter [![HitCount](https://hitt.herokuapp.com/dwyl/repo-badges.svg)](https://github.com/dwyl/repo-badges)
 
 Ever wanted to know how many people have viewed your GitHub Repo?<br />
 We did ...
@@ -127,10 +157,102 @@ So we wrote a tiny script that counts views! :open_mouth:
 > *Yes, we* ***know*** *that* "*hits*" = "***How Idiots Track Success***" ... *but, in the absence of better analytics,
 its a fun metric to track* :wink:
 
+
+### `Node Security Project` _Live_ Check
+
+Enabling **Node Security Project** (***NSP**) "Live" checking
+for your GitHub project requires a few steps, but should only take a couple of minutes ...
+
+> Note: if you already have an NSP account skip to step 3, otherwise you will _first_ need to register, verify, etc.
+
+#### 1. Sign Up for the Service
+
+Sign up at: https://nodesecurity.io/signup  
+(_you need to use a "real" email address ...
+NSP will send you and alert if one of your projects has a security vulnerability so make sure it's  
+an email address you check regularly or better one that you receive on your phone!_)
+
+You will receive an email asking you to _verify_ the email address you used to sign up.
+Click on "Verify Account":
+![nsp-verify-email](https://cloud.githubusercontent.com/assets/194400/19645941/26bf0954-99ef-11e6-97fa-d67a99df3a46.png)
+
+
+#### 2. Create your "Organisation" (_if you don't already have one_)
+
+Once you have verified your account with `NSP` create an "organization"
+so you can keep track of a _group_ of Node.js based projects.
+
+> If you are using NSP for _personal_ projects just name your "org" the same as your GitHub username.
+
+![nsp-add-org](https://cloud.githubusercontent.com/assets/194400/19646334/e690053e-99f0-11e6-8e49-ace07d5a3409.png)
+
+In our case the name of our "org" is `dwyl`.
+Once you've created the "org" click on it and so you can create your integration.
+![nsp-click-on-your-org](https://cloud.githubusercontent.com/assets/194400/19646590/0236538c-99f2-11e6-80dc-a680d514f8fb.png)
+
+#### 3. Create a GitHub Integration for your Project
+
+Click on the button to create a GitHub Integration:
+
+![nsp-add-integration-github](https://cloud.githubusercontent.com/assets/194400/19649798/069962f4-99ff-11e6-997f-f489b10505c9.png)
+
+You will be re-directed to a GitHub "Auth" (Login) Page.
+
+![nsp-github-auth](https://cloud.githubusercontent.com/assets/194400/19649913/7a22f79e-99ff-11e6-9cc2-f344a7fef84f.png)
+
+Login and authorize Node Security Project to access your account.
+Remember to grant authorization for the org where you project is (_if applicable_):
+
+![nsp-authorise-for-dwyl-org](https://cloud.githubusercontent.com/assets/194400/19649969/a33ca7ec-99ff-11e6-8e34-5fe53c6bd69c.png)
+
+Then click on the `Authorize Application` button at the bottom of the page:
+
+![authorize-application](https://cloud.githubusercontent.com/assets/194400/19650123/110d9e16-9a00-11e6-8580-47a9fe6ae41d.png)
+
+Once you do this you will be re-directed back to https://nodesecurity.io/orgs/dwyl/github/
+where you will need to select the Org again `dwyl` in our case.
+
+You will then be presented with a _list_ of projects.  
+In our case we are enabling NSP Live checking
+for our [`hapi-auth-jwt2`](https://github.com/dwyl/hapi-auth-jwt2) project:
+
+![nsp-enable-for-project](https://cloud.githubusercontent.com/assets/194400/19650300/b20cd3f4-9a00-11e6-8eba-b187cd6e8d9a.png)
+
+Once you click the `Submit` button you're done!
+You should see the following message:
+
+![nsp-free-integration](https://cloud.githubusercontent.com/assets/194400/19650406/208a793a-9a01-11e6-8c72-14e42f6368d4.png)
+
+And if you scroll down you will see that the project checkbox is checked.
+
+Going back to your "Projects" page you will see:
+
+![nsp-projects-jwt2-passed](https://cloud.githubusercontent.com/assets/194400/19650556/a31ff4f6-9a01-11e6-9f5a-95e9f7a3f13a.png)
+
+So you _know_ it's working!
+
+Click on the project link and then on the badge:
+
+![nsp-click-on-badge](https://cloud.githubusercontent.com/assets/194400/19650711/1f6dd38e-9a02-11e6-9610-0c54e15036f4.png)
+
+Copy the `Markdown` code shown which includes the unique token for your project.
+and paste it into the README.md of your project. e.g: [![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20)
+
+```markdown
+[![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20)
+```
+
+> Note: _just_ having a 3rd party service telling you there aren't any ***know vulnerabilities***
+does ***not guarantee*** that your app is "_secure_"! You still need to write
+good code that escapes all input and follows "best practice"!
+But the `nsp` badge & service is a _useful_ early warning system.
+
+
+<br />
+
 ### Others
 
 If you need to adapt any of the images or *create your own*: http://shields.io
-
 
 ## *Extra* High-resolution
 
