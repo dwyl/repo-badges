@@ -6,7 +6,7 @@ Code Repository Badges ![build passing](https://raw.githubusercontent.com/dwyl/r
 As people who are ***passionate*** about writing ***great code*** we **display** "***badges***" in our code repositories to ***signal*** to *fellow
 developers* that we set ourselves ***high standards***<sup>1</sup> for the code we write, think of them as the software-equivalent of the brand on your jeans or other ***reliable product***.
 
-Help spread the **Code Quality** ***Love***! :heart:  
+Help spread the **Code Quality** ***Love***! :heart:<br />
 Please :star: this repo and share it with others by ***re-tweeting***:
 
 [![repo-bages-please-retweet](http://i.imgur.com/OuqTKlV.png)](https://twitter.com/nelsonic/status/602379561507135488)
@@ -60,9 +60,11 @@ For more detailed instructions see: https://github.com/dwyl/learn-codeclimate
 
 ### Coverage
 
+
 The new kid on the block for Test Coverage is "CodeCov": https://codecov.io/#features  
 We *love* their features *especially the fact that they check*
 ***coverage for pull requests***! see: https://github.com/dwyl/learn-istanbul#tracking-coverage-as-a-service  
+
 To setup **codecov** simply add the following lines to your
 `.travis.yml` file:
 
@@ -88,7 +90,7 @@ If you are new to test coverage using istanbul check out:
 Working example:
 [hits/**.travis.yml**](https://github.com/nelsonic/hits/blob/master/.travis.yml)
 
-> Note: you can still use CodeClimate for Coverage if you prefer,  
+> Note: you can still use CodeClimate for Coverage if you prefer,<br />
 we're *excited* that there is more *choie* in the JS testing space!
 
 ### Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
@@ -144,7 +146,7 @@ of the project you are working on:
 
 ### (GitHub Repo) Hit Counter [![HitCount](https://hitt.herokuapp.com/dwyl/repo-badges.svg)](https://github.com/dwyl/repo-badges)
 
-Ever wanted to know how many people have viewed your GitHub Repo?  
+Ever wanted to know how many people have viewed your GitHub Repo?<br />
 We did ...
 So we wrote a tiny script that counts views! :open_mouth:
 
