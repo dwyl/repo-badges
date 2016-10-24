@@ -16,6 +16,13 @@ Please :star: this repo and share it with others by ***re-tweeting***:
 
 We use the following badges (*listed in order of importance*):
 
++ ***Security*** - [![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20) -
+NodeSecurity "Live" Checking for your project: https://nodesecurity.io/services
+is a ***free*** service provided by the lovely people at [`Node Security Project`](https://nodesecurity.io)
+that checks if any of your `dependencies` have a security vulnerability.
+This _badge_ is a great way to ***reassure
+people using your app/site that security is being checked***.
+
 + **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta) - "*build passing*" indicates that the project's **tests** all **pass** as expected. If you see that the build for a project is "*broken*" it means the software does *not* work as advertised! This is a clear sign that you should not be using it (*until it gets fixed!*) ... check the repo's issues to see if it's a known problem, if not, *report it*!  
 We use [***Travic-CI***](https://github.com/dwyl/learn-travis) for our CI.  We wrote a little how-to/tutorial to help you (and your team) get started: [https://github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
 
@@ -30,8 +37,9 @@ We use https://david-dm.org/ to track our dependencies. david-dm is lovingly mai
 
 + **devDependencies** - [![devDependencies Status](https://david-dm.org/dwyl/hapi-auth-jwt2/dev-status.svg)](https://david-dm.org/dwyl/hapi-auth-jwt2?type=dev) - your devDependencies are the modules used in testing/building your project. These do not *need* to be the *latest* versions because you will typically not install your devDependencies on your production server (so there aren't security vulnerabilities in *production* of having out-of-date devDependencies...) however, ***we encourage*** use of ***latest*** devDependencies because it means better stability in the build (fewer bugs in our tools!) and it makes it *easier* for ***new people joining the project*** because when they `npm install` they know everything is the *latest* version.
 
-+ **NPM Module Version** - [![NPM Version](https://badge.fury.io/js/esta.svg?style=flat)](https://npmjs.org/package/esta) this is a simple *convenience* to signal to fellow developers which version is the latest for your module. (*save them having to look at the package.json*) if you want to include one in your readme, go to: http://badge.fury.io/for/js and type in your npm package name.
++ **NPM Module _Version_** - [![NPM Version](https://badge.fury.io/js/esta.svg?style=flat)](https://npmjs.org/package/esta) this is a simple *convenience* to signal to fellow developers which version is the latest for your module. (*save them having to look at the package.json*) if you want to include one in your readme, go to: http://badge.fury.io/for/js and type in your npm package name.
 
++ **NPM Module _Download Stats_** - [![NPM Download Stats](https://nodei.co/npm/decache.png?downloads=true)](https://www.npmjs.com/package/decache) - while this can be seen as a "_vanity metric_" it _can_ also be _useful_ to know if your project is actually being _used_ by people in the community to know if you need keep supporting it.
 
 ## How?
 
@@ -97,11 +105,11 @@ we're *excited* that there is more *choie* in the JS testing space!
 
 ### NPM Download Statistics
 
-If you want to know the download stats for your NPM package, use https://nodei.co/ e.g:
+To show download stats for your NPM package, use https://nodei.co/ e.g:
 
-[![https://nodei.co/npm/hapi-auth-jwt2.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/hapi-auth-jwt2.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hapi-auth-jwt2)
+[![NPM Download Stats](https://nodei.co/npm/hapi-auth-jwt2.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/hapi-auth-jwt2)
 
-If you want the image to be clickable use the following Markdown:
+If you want the image to be _clickable_ use the following Markdown:
 
 ```markdown
 [![https://nodei.co/npm/YOUR-MODULE-NAME.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/YOUR-MODULE-NAME.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/YOUR-MODULE-NAME)
@@ -134,7 +142,7 @@ of the project you are working on:
 [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```
 
-### Hit Counter [![HitCount](https://hitt.herokuapp.com/dwyl/repo-badges.svg)](https://github.com/dwyl/repo-badges)
+### (GitHub Repo) Hit Counter [![HitCount](https://hitt.herokuapp.com/dwyl/repo-badges.svg)](https://github.com/dwyl/repo-badges)
 
 Ever wanted to know how many people have viewed your GitHub Repo?  
 We did ...
@@ -148,8 +156,97 @@ So we wrote a tiny script that counts views! :open_mouth:
 its a fun metric to track* :wink:
 
 
+### `Node Security Project` _Live_ Check
+
+Enabling **Node Security Project** (***NSP**) "Live" checking
+for your GitHub project requires a few steps, but should only take a couple of minutes ...
+
+> Note: if you already have an NSP account skip to step 3, otherwise you will _first_ need to register, verify, etc.
+
+#### 1. Sign Up for the Service
+
+Sign up at: https://nodesecurity.io/signup  
+(_you need to use a "real" email address ...
+NSP will send you and alert if one of your projects has a security vulnerability so make sure it's  
+an email address you check regularly or better one that you receive on your phone!_)
+
+You will receive an email asking you to _verify_ the email address you used to sign up.
+Click on "Verify Account":
+![nsp-verify-email](https://cloud.githubusercontent.com/assets/194400/19645941/26bf0954-99ef-11e6-97fa-d67a99df3a46.png)
 
 
+#### 2. Create your "Organisation" (_if you don't already have one_)
+
+Once you have verified your account with `NSP` create an "organization"
+so you can keep track of a _group_ of Node.js based projects.
+
+> If you are using NSP for _personal_ projects just name your "org" the same as your GitHub username.
+
+![nsp-add-org](https://cloud.githubusercontent.com/assets/194400/19646334/e690053e-99f0-11e6-8e49-ace07d5a3409.png)
+
+In our case the name of our "org" is `dwyl`.
+Once you've created the "org" click on it and so you can create your integration.
+![nsp-click-on-your-org](https://cloud.githubusercontent.com/assets/194400/19646590/0236538c-99f2-11e6-80dc-a680d514f8fb.png)
+
+#### 3. Create a GitHub Integration for your Project
+
+Click on the button to create a GitHub Integration:
+
+![nsp-add-integration-github](https://cloud.githubusercontent.com/assets/194400/19649798/069962f4-99ff-11e6-997f-f489b10505c9.png)
+
+You will be re-directed to a GitHub "Auth" (Login) Page.
+
+![nsp-github-auth](https://cloud.githubusercontent.com/assets/194400/19649913/7a22f79e-99ff-11e6-9cc2-f344a7fef84f.png)
+
+Login and authorize Node Security Project to access your account.
+Remember to grant authorization for the org where you project is (_if applicable_):
+
+![nsp-authorise-for-dwyl-org](https://cloud.githubusercontent.com/assets/194400/19649969/a33ca7ec-99ff-11e6-8e34-5fe53c6bd69c.png)
+
+Then click on the `Authorize Application` button at the bottom of the page:
+
+![authorize-application](https://cloud.githubusercontent.com/assets/194400/19650123/110d9e16-9a00-11e6-8580-47a9fe6ae41d.png)
+
+Once you do this you will be re-directed back to https://nodesecurity.io/orgs/dwyl/github/
+where you will need to select the Org again `dwyl` in our case.
+
+You will then be presented with a _list_ of projects.  
+In our case we are enabling NSP Live checking
+for our [`hapi-auth-jwt2`](https://github.com/dwyl/hapi-auth-jwt2) project:
+
+![nsp-enable-for-project](https://cloud.githubusercontent.com/assets/194400/19650300/b20cd3f4-9a00-11e6-8eba-b187cd6e8d9a.png)
+
+Once you click the `Submit` button you're done!
+You should see the following message:
+
+![nsp-free-integration](https://cloud.githubusercontent.com/assets/194400/19650406/208a793a-9a01-11e6-8c72-14e42f6368d4.png)
+
+And if you scroll down you will see that the project checkbox is checked.
+
+Going back to your "Projects" page you will see:
+
+![nsp-projects-jwt2-passed](https://cloud.githubusercontent.com/assets/194400/19650556/a31ff4f6-9a01-11e6-9f5a-95e9f7a3f13a.png)
+
+So you _know_ it's working!
+
+Click on the project link and then on the badge:
+
+![nsp-click-on-badge](https://cloud.githubusercontent.com/assets/194400/19650711/1f6dd38e-9a02-11e6-9610-0c54e15036f4.png)
+
+Copy the `Markdown` code shown which includes the unique token for your project.
+and paste it into the README.md of your project. e.g: [![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20)
+
+```markdown
+[![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20)
+```
+
+> Note: _just_ having a 3rd party service telling you there aren't any ***know vulnerabilities***
+does ***not guarantee*** that your app is "_secure_"! You still need to write
+good code that escapes all input and follows "best practice"!
+But the `nsp` badge & service is a _useful_ early warning system.
+
+
+<br />
 
 ### Others
 
