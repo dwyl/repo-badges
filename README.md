@@ -28,6 +28,11 @@ We use [***Travis CI***](https://github.com/dwyl/learn-travis) for our CI.  We w
 
 + **Test/Code Coverage** - [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://codecov.io/github/dwyl/hapi-auth-jwt2?branch=master) - coverage is the measure of how much of the code in a project is tested. Anything ***below 100% coverage*** means the module/library has ***potential bugs*** which are unknown to the authors/users. We avoid using modules with less than 100% coverage and encourage others to *question* why the authors did not put in the time to test their code... ***ALL our code is tested***. *we cannot guarantee every line is "bug-free", (and always welcome people reporting any issues!) however we are meticulous about testing our work and always add regression/edge test cases where bugs are discovered!*
 
++ **JavaScript the** _**`goodparts`**_ (_code style/linting_) - [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts") ...
+Having _harmony_ in your codebase is _really_ useful/practical because it reduces the "_thinking time_" people working on the project need in order to _understand_ (_and thus maintain/extend_) existing code. There are a _few_ JavaScript "style guides" which help you & your team write consistent JS.
+We like [`goodparts`](https://github.com/dwyl/goodparts) because of [_these reasons_](https://github.com/dwyl/goodparts#why),
+_however_ we _encourage_ you to make up your own mind as to which style to use (_preferably based on sound reasoning not fashion_...)
+
 + **CodeClimate** - [![Code Climate](https://codeclimate.com/github/dwyl/esta/badges/gpa.svg)](https://codeclimate.com/github/dwyl/esta) - is the code quality score for the project measured on a number of factors including **Complexity/Simplicity, Readability, Maintainability, Repetition and Line-count-per-file** . The ***max***imum ***score*** is **4.0** and we *obviously* strive to achieve this level in all our work.   [https://github.com/dwyl/**learn-codeclimate**](https://github.com/dwyl/learn-codeclimate)
 
 + **BitHound** - [![bitHound Score](https://img.shields.io/badge/bitHound-100-brightgreen.svg)](https://www.bithound.io/github/dwyl/ordem) - similar to *CodeClimate* but has *way* more detail! and charts progress/regression on a graph which is great for monitoring code quality in teams! see: https://www.bithound.io/features
@@ -51,7 +56,6 @@ We use https://david-dm.org/ to track our dependencies. david-dm is lovingly mai
 
 You'll need to setup your project on [**Travis-CI**](https://github.com/dwyl/learn-travis) and write **unit tests** (*preferably TDD!*) for this to work ... if you're stuck ask us how!
 
-
 ### CodeClimate
 
 Setup your repository by adding it on code climate then copy the badge markdown from them!
@@ -59,7 +63,6 @@ Setup your repository by adding it on code climate then copy the badge markdown 
 For more detailed instructions see: https://github.com/dwyl/learn-codeclimate
 
 ### Coverage
-
 
 The new kid on the block for Test Coverage is "CodeCov": https://codecov.io/#features  
 We *love* their features *especially the fact that they check*
@@ -93,6 +96,17 @@ Working example:
 > Note: you can still use CodeClimate for Coverage if you prefer,<br />
 we're *excited* that there is more *choie* in the JS testing space!
 
+### `goodparts` JavaScript Code Style [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")
+
+Once you have installed `goodparts` and used it to `lint` your code,
+see: https://github.com/dwyl/goodparts#how you can include a _badge_ in your repo to inform others of your choice of code style.
+
+```markdown
+[![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")
+```
+> See: https://github.com/dwyl/goodparts
+
+
 ### Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 
 ```code
@@ -116,7 +130,6 @@ If you want the image to be _clickable_ use the following Markdown:
 ```markdown
 [![https://nodei.co/npm/YOUR-MODULE-NAME.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/YOUR-MODULE-NAME.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/YOUR-MODULE-NAME)
 ```
-
 
 ### Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
