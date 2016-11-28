@@ -16,6 +16,25 @@ Please :star: this repo and share it with others by ***re-tweeting***:
 
 We use the following badges (*listed in order of importance*):
 
++ **Documentation** - [![Inline docs](http://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](http://inch-ci.org/github/dwyl/hapi-auth-jwt2) _most_ people don't _think_ of _documentation_ as the "_priority_" for their (_technical_) project,
+instead people focus on solving the _~~problem~~_ _challenge_ e.g. by writing some code,
+and `if` it works they add a `TODO` to "improve the docs" ...
+It may _initially_ be _counter-intuitive_ to think of Documentation as being
+the _highest priority_ or _first_ activity in a technical
+project but there are _several_ reasons why it is:
+  + Clearly setting out _your own_ understanding of "the challenge"
+  and then formulating a **Question** to be answered is the _basis_ for
+  [`"The Scientific Method"`](https://en.wikipedia.org/wiki/Scientific_method)
+  without it you are like a blind-folded camel in the desert;
+  unlikely you'll go _stright_ to the oasis!
+  + Describing your "success factors" or "acceptance criteria" _before_ you start so you _know_ when you've achieved your goal!
+  team (_and complete strangers_)
+  + Communicating with **current collaborators** what problem you are/were trying to solve.
+  + Making it _imediately_ clear to everyone if you have _succeded_ in solving the challenge
+  _potential_ new collaborators
+  + Solves time in the _short-run_ because you are _immediately_ focussed on the challenge
+  and don't _waste_ time on distractions.
+
 + ***Security*** - [![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20) -
 NodeSecurity "Live" Checking for your project: https://nodesecurity.io/services
 is a ***free*** service provided by the lovely people at [`Node Security Project`](https://nodesecurity.io)
@@ -28,14 +47,14 @@ We use [***Travis CI***](https://github.com/dwyl/learn-travis) for our CI.  We w
 
 + **Test/Code Coverage** - [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://codecov.io/github/dwyl/hapi-auth-jwt2?branch=master) - coverage is the measure of how much of the code in a project is tested. Anything ***below 100% coverage*** means the module/library has ***potential bugs*** which are unknown to the authors/users. We avoid using modules with less than 100% coverage and encourage others to *question* why the authors did not put in the time to test their code... ***ALL our code is tested***. *we cannot guarantee every line is "bug-free", (and always welcome people reporting any issues!) however we are meticulous about testing our work and always add regression/edge test cases where bugs are discovered!*
 
-+ **JavaScript the** _**`goodparts`**_ (_code style/linting_) - [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts") ...
-Having _harmony_ in your codebase is _really_ useful/practical because it reduces the "_thinking time_" people working on the project need in order to _understand_ (_and thus maintain/extend_) existing code. There are a _few_ JavaScript "style guides" which help you & your team write consistent JS.
-We like [`goodparts`](https://github.com/dwyl/goodparts) because of [_these reasons_](https://github.com/dwyl/goodparts#why),
-_however_ we _encourage_ you to make up your own mind as to which style to use (_preferably based on sound reasoning not fashion_...)
-
 + **CodeClimate** - [![Code Climate](https://codeclimate.com/github/dwyl/esta/badges/gpa.svg)](https://codeclimate.com/github/dwyl/esta) - is the code quality score for the project measured on a number of factors including **Complexity/Simplicity, Readability, Maintainability, Repetition and Line-count-per-file** . The ***max***imum ***score*** is **4.0** and we *obviously* strive to achieve this level in all our work.   [https://github.com/dwyl/**learn-codeclimate**](https://github.com/dwyl/learn-codeclimate)
 
 + **BitHound** - [![bitHound Score](https://img.shields.io/badge/bitHound-100-brightgreen.svg)](https://www.bithound.io/github/dwyl/ordem) - similar to *CodeClimate* but has *way* more detail! and charts progress/regression on a graph which is great for monitoring code quality in teams! see: https://www.bithound.io/features
+
++ **JavaScript the** _**`goodparts`**_ (_code style/linting_) - [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts") ... "Third Party" Code analysis services like CodeClimate (_above_) are _really_ useful to have an "_objective_" (_impartial_) measure for the compexity/maintainability of your codebase, however you may want to take code-style/readability to the _next_ level by using a specific style across all your projects ...
+Having _harmony_ in your codebase is _really_ useful/practical because it reduces the "_thinking time_" people working on the project need in order to _understand_ (_and thus maintain/extend_) existing code. There are a _few_ JavaScript "style guides" which help you & your team write consistent JS.
+We like [`goodparts`](https://github.com/dwyl/goodparts) because of [_these reasons_](https://github.com/dwyl/goodparts#why),
+_however_ we _encourage_ you to make up your own mind as to which style to use (_preferably based on sound reasoning not fashion_...)
 
 + **Dependencies** - [![Dependency Status](https://david-dm.org/dwyl/esta.svg)](https://david-dm.org/dwyl/esta) - knowing your module/project has (and works with) the latest versions of all its dependencies is a good way to signal that any bug-fixes/performance improvements/security patches etc in the *component* modules/libraries are considered in by the authors.
 We use https://david-dm.org/ to track our dependencies. david-dm is lovingly maintained by [**@alanshaw**](https://github.com/alanshaw) of [**TableFlip**](http://tableflip.io/) (a fellow ***dwyl***er!) and is a *great* resource for the node.js community!
@@ -47,6 +66,22 @@ We use https://david-dm.org/ to track our dependencies. david-dm is lovingly mai
 + **NPM Module _Download Stats_** - [![NPM Download Stats](https://nodei.co/npm/decache.png?downloads=true)](https://www.npmjs.com/package/decache) - while this can be seen as a "_vanity metric_" it _can_ also be _useful_ to know if your project is actually being _used_ by people in the community to know if you need keep supporting it.
 
 ## How?
+
+## Documentation ![Inch-CI](https://inch-ci.org/assets/badge-example-b71f9e833318f66f64b3f23877113051.svg)
+
+While including a badge from "Inch-CI" in _no way_ "_guarantees_" that your project
+is "_comprehensively_" documented it serves as a reminder you (_and your team_)
+that documentation (i.e. _communication_) is a _priority_ and _signals_
+to others if you have the solution to _their_ "challenge".
+
+> Visit: http://inch-ci.org/learn_more and paste your GitHub
+username (_or organisation name_) and _repository_ name into the form then click `Evaluate`.
+
+Then you can copy the badge directly from the resulting page. e.g:
+
+```md
+[![Inline docs](http://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME}.svg?branch=master)](http://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME})
+```
 
 ### Build Passing [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/)
 
