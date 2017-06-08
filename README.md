@@ -26,11 +26,11 @@ project but there are _several_ reasons why it is:
   and then formulating a **Question** to be answered is the _basis_ for
   [`"The Scientific Method"`](https://en.wikipedia.org/wiki/Scientific_method)
   without it you are like a blind-folded camel in the desert;
-  unlikely you'll go _stright_ to the oasis!
+  unlikely you'll go _straight_ to the oasis!
   + Describing your "success factors" or "acceptance criteria" _before_ you start so you _know_ when you've achieved your goal!
   team (_and complete strangers_)
   + Communicating with **current collaborators** what problem you are/were trying to solve.
-  + Making it _imediately_ clear to everyone if you have _succeded_ in solving the challenge
+  + Making it _immediately_ clear to everyone if you have _succeeded_ in solving the challenge
   _potential_ new collaborators
   + Solves time in the _short-run_ because you are _immediately_ focussed on the challenge
   and don't _waste_ time on distractions.
@@ -51,7 +51,7 @@ We use [***Travis CI***](https://github.com/dwyl/learn-travis) for our CI.  We w
 
 + **BitHound** - [![bitHound Score](https://img.shields.io/badge/bitHound-100-brightgreen.svg)](https://www.bithound.io/github/dwyl/ordem) - similar to *CodeClimate* but has *way* more detail! and charts progress/regression on a graph which is great for monitoring code quality in teams! see: https://www.bithound.io/features
 
-+ **JavaScript the** _**`goodparts`**_ (_code style/linting_) - [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts") ... "Third Party" Code analysis services like CodeClimate (_above_) are _really_ useful to have an "_objective_" (_impartial_) measure for the compexity/maintainability of your codebase, however you may want to take code-style/readability to the _next_ level by using a specific style across all your projects ...
++ **JavaScript the** _**`goodparts`**_ (_code style/linting_) - [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts") ... "Third Party" Code analysis services like CodeClimate (_above_) are _really_ useful to have an "_objective_" (_impartial_) measure for the complexity/maintainability of your codebase, however you may want to take code-style/readability to the _next_ level by using a specific style across all your projects ...
 Having _harmony_ in your codebase is _really_ useful/practical because it reduces the "_thinking time_" people working on the project need in order to _understand_ (_and thus maintain/extend_) existing code. There are a _few_ JavaScript "style guides" which help you & your team write consistent JS.
 We like [`goodparts`](https://github.com/dwyl/goodparts) because of [_these reasons_](https://github.com/dwyl/goodparts#why),
 _however_ we _encourage_ you to make up your own mind as to which style to use (_preferably based on sound reasoning not fashion_...)
@@ -129,7 +129,7 @@ Working example:
 [hits/**.travis.yml**](https://github.com/nelsonic/hits/blob/master/.travis.yml)
 
 > Note: you can still use CodeClimate for Coverage if you prefer,<br />
-we're *excited* that there is more *choie* in the JS testing space!
+we're *excited* that there is more *choice* in the JS testing space!
 
 ### `goodparts` JavaScript Code Style [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")
 
