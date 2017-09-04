@@ -6,11 +6,6 @@ Code Repository Badges ![build passing](https://raw.githubusercontent.com/dwyl/r
 As people who are ***passionate*** about writing ***great code*** we **display** "***badges***" in our code repositories to ***signal*** to *fellow
 developers* that we set ourselves ***high standards***<sup>1</sup> for the code we write, think of them as the software-equivalent of the brand on your jeans or other ***reliable product***.
 
-Help spread the **Code Quality** ***Love***! :heart:<br />
-Please :star: this repo and share it with others by ***re-tweeting***:
-
-[![repo-bages-please-retweet](http://i.imgur.com/OuqTKlV.png)](https://twitter.com/nelsonic/status/602379561507135488)
-
 
 ## What?
 
@@ -192,23 +187,33 @@ of the project you are working on:
 [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```
 
-### (GitHub Repo) Hit Counter [![HitCount](https://hitt.herokuapp.com/dwyl/repo-badges.svg)](https://github.com/dwyl/repo-badges)
+### (GitHub Repo) Hit Counter [![HitCount](http://hits.dwyl.com/dwyl/repo-badges.svg)](http://hits.dwyl.com/dwyl/repo-badges)
 
 Ever wanted to know how many people have viewed your GitHub Repo?<br />
 We did ...
 So we wrote a tiny script that counts views! :open_mouth:
 
+Visit: http://hits.dwyl.com to get your "Hit Count" badge.
+
+Template:
 ```md
-[![HitCount](https://hitt.herokuapp.com/{username||org}/{project-name}.svg)](https://github.com/{username||org}/{project-name})
+[![HitCount](http://hits.dwyl.com/{username}/{project-name}.svg)](http://hits.dwyl.com/{username}/{project-name})
+```
+Example:
+```
+[![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here)
 ```
 
-> *Yes, we* ***know*** *that* "*hits*" = "***How Idiots Track Success***" ... *but, in the absence of better analytics,
-its a fun metric to track* :wink:
+
+> _Yes, we **know** that for some people, 
+"hits" = "**How Idiots Track Success**" ... 
+but, in the absence of better analytics,
+page views are a good metric to be aware of!_ :chart_with_upwards_trend:
 
 
 ### `Node Security Project` _Live_ Check
 
-Enabling **Node Security Project** (***NSP**) "Live" checking
+Enabling **Node Security Project** (***NSP***) "Live" checking
 for your GitHub project requires a few steps, but should only take a couple of minutes ...
 
 > Note: if you already have an NSP account skip to step 3, otherwise you will _first_ need to register, verify, etc.
@@ -294,6 +299,15 @@ and paste it into the README.md of your project. e.g: [![NSP Status](https://nod
 does ***not guarantee*** that your app is "_secure_"! You still need to write
 good code that escapes all input and follows "best practice"!
 But the `nsp` badge & service is a _useful_ early warning system.
+
+
+# Thank _You_!
+
+Help spread the **Code Quality** ***Love***! :heart:<br />
+Please :star: this repo and share it with others by ***re-tweeting***:
+
+[![repo-bages-please-retweet](http://i.imgur.com/OuqTKlV.png)](https://twitter.com/nelsonic/status/602379561507135488)
+
 
 
 <br />
