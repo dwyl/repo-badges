@@ -13,21 +13,19 @@ We use the following badges (*listed in order of importance*):
 
 + **Documentation** - [![Inline docs](http://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](http://inch-ci.org/github/dwyl/hapi-auth-jwt2) _most_ people don't _think_ of _documentation_ as the "_priority_" for their (_technical_) project,
 instead people focus on solving the _~~problem~~_ _challenge_ e.g. by writing some code,
-and `if` it works they add a `TODO` to "improve the docs" ...
+and `if` it works, they add a `TODO` to "improve the docs" ...
 It may _initially_ be _counter-intuitive_ to think of Documentation as being
 the _highest priority_ or _first_ activity in a technical
 project but there are _several_ reasons why it is:
   + Clearly setting out _your own_ understanding of "the challenge"
   and then formulating a **Question** to be answered is the _basis_ for
-  [`"The Scientific Method"`](https://en.wikipedia.org/wiki/Scientific_method)
-  without it you are like a blind-folded camel in the desert;
-  unlikely you'll go _straight_ to the oasis!
+  [`"The Scientific Method"`](https://en.wikipedia.org/wiki/Scientific_method).
+  Without it you are like a blind-folded camel in the desert;
+  unlikely to go _straight_ to the oasis!
   + Describing your "success factors" or "acceptance criteria" _before_ you start so you _know_ when you've achieved your goal!
-  team (_and complete strangers_)
   + Communicating with **current collaborators** what problem you are/were trying to solve.
   + Making it _immediately_ clear to everyone if you have _succeeded_ in solving the challenge
-  _potential_ new collaborators
-  + Solves time in the _short-run_ because you are _immediately_ focussed on the challenge
+  + Saves time in the _short-run_ because you are _immediately_ focused on the challenge
   and don't _waste_ time on distractions.
 
 + ***Security*** - [![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20) -
@@ -38,25 +36,25 @@ This _badge_ is a great way to ***reassure
 people using your app/site that security is being checked***.
 
 + **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta) - "*build passing*" indicates that the project's **tests** all **pass** as expected. If you see that the build for a project is "*broken*" it means the software does *not* work as advertised! This is a clear sign that you should not be using it (*until it gets fixed!*) ... check the repo's issues to see if it's a known problem, if not, *report it*!  
-We use [***Travis CI***](https://github.com/dwyl/learn-travis) for our CI.  We wrote a little how-to/tutorial to help you (and your team) get started: [https://github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
+We use [***Travis CI***](https://travis-ci.org/) for our CI.  We wrote a little how-to/tutorial to help you (and your team) get started: [https://github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
 
 + **Test/Code Coverage** - [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://codecov.io/github/dwyl/hapi-auth-jwt2?branch=master) - coverage is the measure of how much of the code in a project is tested. Anything ***below 100% coverage*** means the module/library has ***potential bugs*** which are unknown to the authors/users. We avoid using modules with less than 100% coverage and encourage others to *question* why the authors did not put in the time to test their code... ***ALL our code is tested***. *we cannot guarantee every line is "bug-free", (and always welcome people reporting any issues!) however we are meticulous about testing our work and always add regression/edge test cases where bugs are discovered!*
 
-+ **CodeClimate** - [![Code Climate](https://codeclimate.com/github/dwyl/esta/badges/gpa.svg)](https://codeclimate.com/github/dwyl/esta) - is the code quality score for the project measured on a number of factors including **Complexity/Simplicity, Readability, Maintainability, Repetition and Line-count-per-file** . The ***max***imum ***score*** is **4.0** and we *obviously* strive to achieve this level in all our work.   [https://github.com/dwyl/**learn-codeclimate**](https://github.com/dwyl/learn-codeclimate)
++ **CodeClimate** - [![Code Climate](https://codeclimate.com/github/dwyl/esta/badges/gpa.svg)](https://codeclimate.com/github/dwyl/esta) - is the code quality score for a project measured on a number of factors including **Complexity/Simplicity, Readability, Maintainability, Repetition and Line-count-per-file** . The <b><i>max</b></i>imum ***score*** is **4.0** and we *obviously* strive to achieve this level in all our work.   [https://github.com/dwyl/**learn-codeclimate**](https://github.com/dwyl/learn-codeclimate)
 
 + **BitHound** - [![bitHound Score](https://img.shields.io/badge/bitHound-100-brightgreen.svg)](https://www.bithound.io/github/dwyl/ordem) - similar to *CodeClimate* but has *way* more detail! and charts progress/regression on a graph which is great for monitoring code quality in teams! see: https://www.bithound.io/features
 
 + **JavaScript the** _**`goodparts`**_ (_code style/linting_) - [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts") ... "Third Party" Code analysis services like CodeClimate (_above_) are _really_ useful to have an "_objective_" (_impartial_) measure for the complexity/maintainability of your codebase, however you may want to take code-style/readability to the _next_ level by using a specific style across all your projects ...
-Having _harmony_ in your codebase is _really_ useful/practical because it reduces the "_thinking time_" people working on the project need in order to _understand_ (_and thus maintain/extend_) existing code. There are a _few_ JavaScript "style guides" which help you & your team write consistent JS.
+Having _harmony_ in your codebase is _really_ useful/practical because it reduces the "_thinking time_". People working on the project need in order to _understand_ (_and thus maintain/extend_) existing code. There are a _few_ JavaScript "style guides" which help you & your team write consistent JS.
 We like [`goodparts`](https://github.com/dwyl/goodparts) because of [_these reasons_](https://github.com/dwyl/goodparts#why),
 _however_ we _encourage_ you to make up your own mind as to which style to use (_preferably based on sound reasoning not fashion_...)
 
 + **Dependencies** - [![Dependency Status](https://david-dm.org/dwyl/esta.svg)](https://david-dm.org/dwyl/esta) - knowing your module/project has (and works with) the latest versions of all its dependencies is a good way to signal that any bug-fixes/performance improvements/security patches etc in the *component* modules/libraries are considered in by the authors.
-We use https://david-dm.org/ to track our dependencies. david-dm is lovingly maintained by [**@alanshaw**](https://github.com/alanshaw) of [**TableFlip**](http://tableflip.io/) (a fellow ***dwyl***er!) and is a *great* resource for the node.js community!
+We use https://david-dm.org/ to track our dependencies. david-dm is lovingly maintained by [**@alanshaw**](https://github.com/alanshaw) of [**TableFlip**](http://tableflip.io/) (a fellow <b><i>dwyl</b></i>er!) and is a *great* resource for the node.js community!
 
 + **devDependencies** - [![devDependencies Status](https://david-dm.org/dwyl/hapi-auth-jwt2/dev-status.svg)](https://david-dm.org/dwyl/hapi-auth-jwt2?type=dev) - your devDependencies are the modules used in testing/building your project. These do not *need* to be the *latest* versions because you will typically not install your devDependencies on your production server (so there aren't security vulnerabilities in *production* of having out-of-date devDependencies...) however, ***we encourage*** use of ***latest*** devDependencies because it means better stability in the build (fewer bugs in our tools!) and it makes it *easier* for ***new people joining the project*** because when they `npm install` they know everything is the *latest* version.
 
-+ **NPM Module _Version_** - [![NPM Version](https://badge.fury.io/js/esta.svg?style=flat)](https://npmjs.org/package/esta) this is a simple *convenience* to signal to fellow developers which version is the latest for your module. (*save them having to look at the package.json*) if you want to include one in your readme, go to: http://badge.fury.io/for/js and type in your npm package name.
++ **NPM Module _Version_** - [![NPM Version](https://badge.fury.io/js/esta.svg?style=flat)](https://npmjs.org/package/esta) this is a simple *convenience* to signal to fellow developers which version is the latest for your module. (*saves them having to look at the package.json*) If you want to include one in your readme, go to: http://badge.fury.io/for/js and type in your npm package name.
 
 + **NPM Module _Download Stats_** - [![NPM Download Stats](https://nodei.co/npm/decache.png?downloads=true)](https://www.npmjs.com/package/decache) - while this can be seen as a "_vanity metric_" it _can_ also be _useful_ to know if your project is actually being _used_ by people in the community to know if you need keep supporting it.
 
@@ -65,7 +63,7 @@ We use https://david-dm.org/ to track our dependencies. david-dm is lovingly mai
 ## Documentation ![Inch-CI](https://inch-ci.org/assets/badge-example-b71f9e833318f66f64b3f23877113051.svg)
 
 While including a badge from "Inch-CI" in _no way_ "_guarantees_" that your project
-is "_comprehensively_" documented it serves as a reminder you (_and your team_)
+is "_comprehensively_" documented it serves to remind you (_and your team_)
 that documentation (i.e. _communication_) is a _priority_ and _signals_
 to others if you have the solution to _their_ "challenge".
 
@@ -223,7 +221,7 @@ for your GitHub project requires a few steps, but should only take a couple of m
 Sign up at: https://nodesecurity.io/signup  
 (_you need to use a "real" email address ...
 NSP will send you and alert if one of your projects has a security vulnerability so make sure it's  
-an email address you check regularly or better one that you receive on your phone!_)
+an email address you check regularly or better, one that you receive on your phone!_)
 
 You will receive an email asking you to _verify_ the email address you used to sign up.
 Click on "Verify Account":
