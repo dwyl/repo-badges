@@ -28,12 +28,18 @@ project but there are _several_ reasons why it is:
   + Saves time in the _short-run_ because you are _immediately_ focused on the challenge
   and don't _waste_ time on distractions.
 
-+ ***Security*** - [![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20) -
-NodeSecurity "Live" Checking for your project: https://nodesecurity.io/services
-is a ***free*** service provided by the lovely people at [`Node Security Project`](https://nodesecurity.io)
++ ***Security*** - [![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dwyl/hapi-auth-jwt2?targetFile=package.json) -
+Snyk Dependency Security Vulnerability Checking for your project:
+https://snyk.io/
+is a ***free*** service provided by the lovely people at Snyk
 that checks if any of your `dependencies` have a security vulnerability.
 This _badge_ is a great way to ***reassure
 people using your app/site that security is being checked***.
+> Top tip: Guy Podjarny [@guypod](https://github.com/guypod) the founder of Snyk
+hosts "***The Secure Developer***" Podcast. <br />
+It's a "***must***" for _all_ devs!
+Subscribe if you aren't already:
+https://www.heavybit.com/library/podcasts/the-secure-developer
 
 + **Continuous Integration** - [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/dwyl/esta) - "*build passing*" indicates that the project's **tests** all **pass** as expected. If you see that the build for a project is "*broken*" it means the software does *not* work as advertised! This is a clear sign that you should not be using it (*until it gets fixed!*) ... check the repo's issues to see if it's a known problem, if not, *report it*!  
 We use [***Travis CI***](https://travis-ci.org/) for our CI.  We wrote a little how-to/tutorial to help you (and your team) get started: [https://github.com/dwyl/**learn-travis**](https://github.com/dwyl/learn-travis)
@@ -201,100 +207,96 @@ Example:
 ```
 
 
-> _Yes, we **know** that for some people, 
-"hits" = "**How Idiots Track Success**" ... 
+> _Yes, we **know** that for some people,
+"hits" = "**How Idiots Track Success**" ...
 but, in the absence of better analytics,
 page views are a good metric to be aware of!_ :chart_with_upwards_trend:
 
 
-### `Node Security Project` _Live_ Check
+### Snyk _Proactive_ Security Vulnerability Detection
 
-Enabling **Node Security Project** (***NSP***) "Live" checking
-for your GitHub project requires a few steps, but should only take a couple of minutes ...
+1. Visit: https://snyk.io
 
-> Note: if you already have an NSP account skip to step 3, otherwise you will _first_ need to register, verify, etc.
+![01-snyk-home-page](https://user-images.githubusercontent.com/194400/49246105-0c6c2900-f40c-11e8-9ff1-824c1f327626.png)
 
-#### 1. Sign Up for the Service
+2. Click the "Signup with GitHub" button/link:
 
-Sign up at: https://nodesecurity.io/signup  
-(_you need to use a "real" email address ...
-NSP will send you and alert if one of your projects has a security vulnerability so make sure it's  
-an email address you check regularly or better, one that you receive on your phone!_)
+![02-snyk-signup](https://user-images.githubusercontent.com/194400/49246107-0c6c2900-f40c-11e8-8004-ae31a2369090.png)
 
-You will receive an email asking you to _verify_ the email address you used to sign up.
-Click on "Verify Account":
-![nsp-verify-email](https://cloud.githubusercontent.com/assets/194400/19645941/26bf0954-99ef-11e6-97fa-d67a99df3a46.png)
+3. Click the button to "Athorise Snyk":
+
+![03-snyk-authorise](https://user-images.githubusercontent.com/194400/49246108-0c6c2900-f40c-11e8-82e9-deea841fe6bf.png)
+
+4. Click to "Connect with GitHub":
+
+![04-snyk-integrations-select-github](https://user-images.githubusercontent.com/194400/49246110-0d04bf80-f40c-11e8-9729-9aa52fd7965e.png)
+
+5. _Again_ click "Connect with GitHub":
+
+![05-connect-to-github](https://user-images.githubusercontent.com/194400/49246112-0d04bf80-f40c-11e8-88b2-ef608def7cb0.png)
+
+6. By default Snyk requests access to both **`public`**  and **`private`**  repos,
+Select whatever is relevant to you and continue:
+
+![06-snyk-wants-private-repos-by-default](https://user-images.githubusercontent.com/194400/49246113-0d04bf80-f40c-11e8-9766-2c3cf6f4938a.png)
+
+7. I selected _only_ **`public`** repositories as I _always_ follow the ["principal of least privilege"](https://github.com/dwyl/learn-security#principal-of-least-privilege):
+
+![07-snyk-select-public-repos-only](https://user-images.githubusercontent.com/194400/49246115-0d04bf80-f40c-11e8-9a8a-ca322d79cea1.png)
+
+8. Confirm the access that Snyk is requesting:
+
+![08-snyk-authorise](https://user-images.githubusercontent.com/194400/49246117-0d9d5600-f40c-11e8-825f-1bdab8ac318c.png)
+
+9. Connect to Snyk to a GitHub Repository:
+
+![09-snyk-connect-to-github-repo](https://user-images.githubusercontent.com/194400/49246118-0d9d5600-f40c-11e8-9898-0ccbc2041279.png)
+
+10. Select the desired repository: (_in this case [`hapi-auth-jwt2`](https://github.com/dwyl/hapi-auth-jwt2) ..._)
+
+![10-snyk-select-desired-repo](https://user-images.githubusercontent.com/194400/49246119-0d9d5600-f40c-11e8-9820-1cea4e45f90a.png)
+
+11. Add selected repo:
+
+![11-snyk-add-1-selected-repository](https://user-images.githubusercontent.com/194400/49246121-0d9d5600-f40c-11e8-81bb-d7eb283a2f0f.png)
+
+12. Wait for the repo to be imported by Snyk:
+
+![12-snyk-importing](https://user-images.githubusercontent.com/194400/49246122-0d9d5600-f40c-11e8-91a2-e0bb28439f83.png)
+
+13. Once the repo has finished importing, refresh the page to see your dashboard:
+
+![13-snyk-finished-securing](https://user-images.githubusercontent.com/194400/49246123-0e35ec80-f40c-11e8-9d5b-e73abe619ae7.png)
+
+14. From the Snyk dashboard. Click on the project you want to view:
+
+![14-snyk-dashboard-projects](https://user-images.githubusercontent.com/194400/49246124-0e35ec80-f40c-11e8-87fb-3c15615ebef8.png)
+
+15. Copy the Snyk "Badge" for inclusion in your project:
+
+![15-snyk-project-page](https://user-images.githubusercontent.com/194400/49246125-0e35ec80-f40c-11e8-8347-6030901931da.png)
 
 
-#### 2. Create your "Organisation" (_if you don't already have one_)
+Badge Format:
+```
+[![Known Vulnerabilities](https://snyk.io/test/github/{username}/{repo}/badge.svg)](https://snyk.io/test/github/{username}/{repo})
 
-Once you have verified your account with `NSP` create an "organization"
-so you can keep track of a _group_ of Node.js based projects.
+```
 
-> If you are using NSP for _personal_ projects just name your "org" the same as your GitHub username.
+Official Badge: [![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dwyl/hapi-auth-jwt2?targetFile=package.json)
+```
+[![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dwyl/hapi-auth-jwt2?targetFile=package.json)
+````
 
-![nsp-add-org](https://cloud.githubusercontent.com/assets/194400/19646334/e690053e-99f0-11e6-8e49-ace07d5a3409.png)
-
-In our case the name of our "org" is `dwyl`.
-Once you've created the "org" click on it and so you can create your integration.
-![nsp-click-on-your-org](https://cloud.githubusercontent.com/assets/194400/19646590/0236538c-99f2-11e6-80dc-a680d514f8fb.png)
-
-#### 3. Create a GitHub Integration for your Project
-
-Click on the button to create a GitHub Integration:
-
-![nsp-add-integration-github](https://cloud.githubusercontent.com/assets/194400/19649798/069962f4-99ff-11e6-997f-f489b10505c9.png)
-
-You will be re-directed to a GitHub "Auth" (Login) Page.
-
-![nsp-github-auth](https://cloud.githubusercontent.com/assets/194400/19649913/7a22f79e-99ff-11e6-9cc2-f344a7fef84f.png)
-
-Login and authorize Node Security Project to access your account.
-Remember to grant authorization for the org where you project is (_if applicable_):
-
-![nsp-authorise-for-dwyl-org](https://cloud.githubusercontent.com/assets/194400/19649969/a33ca7ec-99ff-11e6-8e34-5fe53c6bd69c.png)
-
-Then click on the `Authorize Application` button at the bottom of the page:
-
-![authorize-application](https://cloud.githubusercontent.com/assets/194400/19650123/110d9e16-9a00-11e6-8580-47a9fe6ae41d.png)
-
-Once you do this you will be re-directed back to https://nodesecurity.io/orgs/dwyl/github/
-where you will need to select the Org again `dwyl` in our case.
-
-You will then be presented with a _list_ of projects.  
-In our case we are enabling NSP Live checking
-for our [`hapi-auth-jwt2`](https://github.com/dwyl/hapi-auth-jwt2) project:
-
-![nsp-enable-for-project](https://cloud.githubusercontent.com/assets/194400/19650300/b20cd3f4-9a00-11e6-8eba-b187cd6e8d9a.png)
-
-Once you click the `Submit` button you're done!
-You should see the following message:
-
-![nsp-free-integration](https://cloud.githubusercontent.com/assets/194400/19650406/208a793a-9a01-11e6-8c72-14e42f6368d4.png)
-
-And if you scroll down you will see that the project checkbox is checked.
-
-Going back to your "Projects" page you will see:
-
-![nsp-projects-jwt2-passed](https://cloud.githubusercontent.com/assets/194400/19650556/a31ff4f6-9a01-11e6-9f5a-95e9f7a3f13a.png)
-
-So you _know_ it's working!
-
-Click on the project link and then on the badge:
-
-![nsp-click-on-badge](https://cloud.githubusercontent.com/assets/194400/19650711/1f6dd38e-9a02-11e6-9610-0c54e15036f4.png)
-
-Copy the `Markdown` code shown which includes the unique token for your project.
-and paste it into the README.md of your project. e.g: [![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20)
-
-```markdown
-[![NSP Status](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20/badge)](https://nodesecurity.io/orgs/dwyl/projects/1047e39b-0d4a-45ff-af65-c04afc41fc20)
+Flat Square: [![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json&style=flat-square)](https://snyk.io/test/github/dwyl/hapi-auth-jwt2?targetFile=package.json)
+```
+[![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dwyl/hapi-auth-jwt2?targetFile=package.json)
 ```
 
 > Note: _just_ having a 3rd party service telling you there aren't any ***know vulnerabilities***
 does ***not guarantee*** that your app is "_secure_"! You still need to write
 good code that escapes all input and follows "best practice"!
-But the `nsp` badge & service is a _useful_ early warning system.
+But the `snyk` badge & service is a _useful_ early warning system.
 
 
 # Thank _You_!
