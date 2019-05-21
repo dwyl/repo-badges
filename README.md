@@ -189,7 +189,7 @@ of the project you are working on:
 [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```
 
-### (GitHub Repo) Hit Counter [![HitCount](http://hits.dwyl.com/dwyl/repo-badges.svg)](http://hits.dwyl.com/dwyl/repo-badges)
+### (GitHub Repo) Hit Counter [![HitCount](https://hits.dwyl.com/dwyl/repo-badges.svg)](https://hits.dwyl.com/dwyl/repo-badges)
 
 Ever wanted to know how many people have viewed your GitHub Repo?<br />
 We did ...
