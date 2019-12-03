@@ -240,7 +240,7 @@ Select whatever is relevant to you and continue:
 
 ![06-snyk-wants-private-repos-by-default](https://user-images.githubusercontent.com/194400/49246113-0d04bf80-f40c-11e8-9766-2c3cf6f4938a.png)
 
-7. I selected _only_ **`public`** repositories as I _always_ follow the ["principal of least privilege"](https://github.com/dwyl/learn-security#principal-of-least-privilege):
+7. I selected _only_ **`public`** repositories as I _always_ follow the ["principle of least privilege"](https://github.com/dwyl/learn-security#principle-of-least-privilege):
 
 ![07-snyk-select-public-repos-only](https://user-images.githubusercontent.com/194400/49246115-0d04bf80-f40c-11e8-9a8a-ca322d79cea1.png)
 
