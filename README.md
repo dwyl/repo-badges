@@ -68,6 +68,7 @@ We use https://david-dm.org/ to track our dependencies. david-dm is lovingly mai
 
 ## How?
 
+<!--
 ## Documentation ![Inch-CI](https://inch-ci.org/assets/badge-example-b71f9e833318f66f64b3f23877113051.svg)
 
 While including a badge from "Inch-CI" in _no way_ "_guarantees_" that your project
@@ -83,10 +84,11 @@ Then you can copy the badge directly from the resulting page. e.g:
 ```md
 [![Inline docs](http://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME}.svg?branch=master)](http://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME})
 ```
+-->
 
 ## Build Passing [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/)
 
-### GitHub Actions/Workflows
+### GitHub Actions/Workflows
 
 If you are using GitHub Actions/Workflows 
 https://github.com/features/actions
