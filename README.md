@@ -1,5 +1,9 @@
-Code Repository Badges ![build passing](https://raw.githubusercontent.com/dwyl/repo-badges/master/highresPNGs/build-passing.png)
-===========
+<div align="center">
+
+# Code Repository Badges 
+![build passing](https://raw.githubusercontent.com/dwyl/repo-badges/master/highresPNGs/build-passing.png)
+
+</div>
 
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 
@@ -80,13 +84,45 @@ Then you can copy the badge directly from the resulting page. e.g:
 [![Inline docs](http://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME}.svg?branch=master)](http://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME})
 ```
 
-### Build Passing [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/)
+## Build Passing [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://travis-ci.org/)
+
+### GitHub Actions/Workflows
+
+If you are using GitHub Actions/Workflows 
+https://github.com/features/actions
+to run your Continuous Integration (CI),
+then you can include a badge in your project's `README.md`
+
+Regular badge template:
+```
+![example workflow](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
+```
+e.g:
+```
+![GitHub CI](https://github.com/dwyl/auth_plug/actions/workflows/ci.yml/badge.svg)
+```
+
+![GitHub CI](https://github.com/dwyl/auth_plug/actions/workflows/ci.yml/badge.svg)
+
+Custom badge via Shields.io: https://shields.io/category/build
+![image](https://user-images.githubusercontent.com/194400/137601498-5a5496dc-f610-4931-8fa6-45e9ef9cd051.png)
+
+Example:
+```
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dwyl/auth_plug/Elixir%20CI?label=build&style=flat-square)
+```
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dwyl/auth_plug/Elixir%20CI?label=build&style=flat-square)
+
+<br />
+
+### Travis-CI
+
+You'll need to setup your project on [**Travis-CI**](https://github.com/dwyl/learn-travis) and write **unit tests** (*preferably TDD!*) for this to work ... if you're stuck ask us how!
+
 
 ```md
 [![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
 ```
-
-You'll need to setup your project on [**Travis-CI**](https://github.com/dwyl/learn-travis) and write **unit tests** (*preferably TDD!*) for this to work ... if you're stuck ask us how!
 
 ### CodeClimate
 
