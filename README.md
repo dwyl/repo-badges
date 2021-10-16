@@ -93,7 +93,8 @@ Then you can copy the badge directly from the resulting page. e.g:
 If you are using GitHub Actions/Workflows 
 https://github.com/features/actions
 to run your Continuous Integration (CI),
-then you can include a badge in your project's `README.md`
+then you can include a badge in your project's `README.md`:
+https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge
 
 Regular badge template:
 ```
