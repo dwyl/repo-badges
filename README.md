@@ -5,7 +5,7 @@
 
 </div>
 
-## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 
 As people who are ***passionate*** about writing ***great code*** we **display** "***badges***" in our code repositories to ***signal*** to *fellow
 developers* that we set ourselves ***high standards***<sup>1</sup> for the code we write, think of them as the software-equivalent of the brand on your jeans or other ***reliable product***.
@@ -15,7 +15,7 @@ developers* that we set ourselves ***high standards***<sup>1</sup> for the code 
 
 We use the following badges (*listed in order of importance*):
 
-+ **Documentation** - [![Inline docs](http://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](http://inch-ci.org/github/dwyl/hapi-auth-jwt2) _most_ people don't _think_ of _documentation_ as the "_priority_" for their (_technical_) project,
++ **Documentation** - [![Inline docs](https://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](https://inch-ci.org/github/dwyl/hapi-auth-jwt2) _most_ people don't _think_ of _documentation_ as the "_priority_" for their (_technical_) project,
 instead people focus on solving the _~~problem~~_ _challenge_ e.g. by writing some code,
 and `if` it works, they add a `TODO` to "improve the docs" ...
 It may _initially_ be _counter-intuitive_ to think of Documentation as being
@@ -58,11 +58,11 @@ We like [`goodparts`](https://github.com/dwyl/goodparts) because of [_these reas
 _however_ we _encourage_ you to make up your own mind as to which style to use (_preferably based on sound reasoning not fashion_...)
 
 + **Dependencies** - [![Dependency Status](https://david-dm.org/dwyl/esta.svg)](https://david-dm.org/dwyl/esta) - knowing your module/project has (and works with) the latest versions of all its dependencies is a good way to signal that any bug-fixes/performance improvements/security patches etc in the *component* modules/libraries are considered in by the authors.
-We use https://david-dm.org/ to track our dependencies. david-dm is lovingly maintained by [**@alanshaw**](https://github.com/alanshaw) of [**TableFlip**](http://tableflip.io/) (a fellow <b><i>dwyl</b></i>er!) and is a *great* resource for the node.js community!
+We use https://david-dm.org/ to track our dependencies. david-dm is lovingly maintained by [**@alanshaw**](https://github.com/alanshaw) of [**TableFlip**](https://tableflip.io/) (a fellow <b><i>dwyl</b></i>er!) and is a *great* resource for the node.js community!
 
 + **devDependencies** - [![devDependencies Status](https://david-dm.org/dwyl/hapi-auth-jwt2/dev-status.svg)](https://david-dm.org/dwyl/hapi-auth-jwt2?type=dev) - your devDependencies are the modules used in testing/building your project. These do not *need* to be the *latest* versions because you will typically not install your devDependencies on your production server (so there aren't security vulnerabilities in *production* of having out-of-date devDependencies...) however, ***we encourage*** use of ***latest*** devDependencies because it means better stability in the build (fewer bugs in our tools!) and it makes it *easier* for ***new people joining the project*** because when they `npm install` they know everything is the *latest* version.
 
-+ **NPM Module _Version_** - [![NPM Version](https://badge.fury.io/js/esta.svg?style=flat)](https://npmjs.org/package/esta) this is a simple *convenience* to signal to fellow developers which version is the latest for your module. (*saves them having to look at the package.json*) If you want to include one in your readme, go to: http://badge.fury.io/for/js and type in your npm package name.
++ **NPM Module _Version_** - [![NPM Version](https://badge.fury.io/js/esta.svg?style=flat)](https://npmjs.org/package/esta) this is a simple *convenience* to signal to fellow developers which version is the latest for your module. (*saves them having to look at the package.json*) If you want to include one in your readme, go to: https://badge.fury.io/for/js and type in your npm package name.
 
 + **NPM Module _Download Stats_** - [![NPM Download Stats](https://nodei.co/npm/decache.png?downloads=true)](https://www.npmjs.com/package/decache) - while this can be seen as a "_vanity metric_" it _can_ also be _useful_ to know if your project is actually being _used_ by people in the community to know if you need keep supporting it.
 
@@ -76,13 +76,13 @@ is "_comprehensively_" documented it serves to remind you (_and your team_)
 that documentation (i.e. _communication_) is a _priority_ and _signals_
 to others if you have the solution to _their_ "challenge".
 
-> Visit: http://inch-ci.org/learn_more and paste your GitHub
+> Visit: https://inch-ci.org/learn_more and paste your GitHub
 username (_or organisation name_) and _repository_ name into the form then click `Evaluate`.
 
 Then you can copy the badge directly from the resulting page. e.g:
 
 ```md
-[![Inline docs](http://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME}.svg?branch=master)](http://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME})
+[![Inline docs](https://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME}.svg?branch=master)](https://inch-ci.org/github/{ORG-or-USERNAME}/{REPO-NAME})
 ```
 -->
 
@@ -178,16 +178,16 @@ see: https://github.com/dwyl/goodparts#how you can include a _badge_ in your rep
 > See: https://github.com/dwyl/goodparts
 
 
-### Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+### Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 
 ```code
-## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 ```
 
-### Node.js Version your Project/Module Supports: [![NPM version](https://badge.fury.io/js/esta.svg)](http://badge.fury.io/js/esta)
+### Node.js Version your Project/Module Supports: [![NPM version](https://badge.fury.io/js/esta.svg)](https://badge.fury.io/js/esta)
 
 ```md
-[![Node version](https://img.shields.io/node/v/[NPM-MODULE-NAME].svg?style=flat)](http://nodejs.org/download/)
+[![Node version](https://img.shields.io/node/v/[NPM-MODULE-NAME].svg?style=flat)](https://nodejs.org/download/)
 ```
 
 ### NPM Download Statistics
@@ -228,21 +228,21 @@ of the project you are working on:
 [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```
 
-### (GitHub Repo) Hit Counter [![HitCount](http://hits.dwyl.com/dwyl/repo-badges.svg)](http://hits.dwyl.com/dwyl/repo-badges)
+### (GitHub Repo) Hit Counter [![HitCount](https://hits.dwyl.com/dwyl/repo-badges.svg)](https://hits.dwyl.com/dwyl/repo-badges)
 
 Ever wanted to know how many people have viewed your GitHub Repo?<br />
 We did ...
 So we wrote a tiny script that counts views! :open_mouth:
 
-Visit: http://hits.dwyl.com to get your "Hit Count" badge.
+Visit: https://hits.dwyl.com to get your "Hit Count" badge.
 
 Template:
 ```md
-[![HitCount](http://hits.dwyl.com/{username}/{project-name}.svg)](http://hits.dwyl.com/{username}/{project-name})
+[![HitCount](https://hits.dwyl.com/{username}/{project-name}.svg)](https://hits.dwyl.com/{username}/{project-name})
 ```
 Example:
 ```
-[![HitCount](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/dwyl/start-here)
+[![HitCount](https://hits.dwyl.com/dwyl/start-here.svg)](https://hits.dwyl.com/dwyl/start-here)
 ```
 
 
@@ -262,7 +262,7 @@ See:
 Help spread the **Code Quality** ***Love***! :heart:<br />
 Please :star: this repo and share it with others by ***re-tweeting***:
 
-[![repo-bages-please-retweet](http://i.imgur.com/OuqTKlV.png)](https://twitter.com/nelsonic/status/602379561507135488)
+[![repo-bages-please-retweet](https://i.imgur.com/OuqTKlV.png)](https://twitter.com/nelsonic/status/602379561507135488)
 
 
 
@@ -270,7 +270,7 @@ Please :star: this repo and share it with others by ***re-tweeting***:
 
 ### Others
 
-If you need to adapt any of the images or *create your own*: http://shields.io
+If you need to adapt any of the images or *create your own*: https://shields.io
 
 ## *Extra* High-resolution
 
