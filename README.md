@@ -15,7 +15,7 @@ developers* that we set ourselves ***high standards***<sup>1</sup> for the code 
 
 We use the following badges (*listed in order of importance*):
 
-+ **Documentation** - [![Inline docs](https://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](https://inch-ci.org/github/dwyl/hapi-auth-jwt2) _most_ people don't _think_ of _documentation_ as the "_priority_" for their (_technical_) project,
++ **Documentation** - [![Inline docs](https://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](https://inch-ci.org/github/dwyl/hapi-auth-jwt2) _Many_ developers do not _prioritize documentation_ in their (_technical_) projects, 
 instead people focus on solving the _~~problem~~_ _challenge_ e.g. by writing some code,
 and `if` it works, they add a `TODO` to "improve the docs" ...
 It may _initially_ be _counter-intuitive_ to think of Documentation as being
